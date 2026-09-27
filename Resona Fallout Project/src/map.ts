@@ -1,0 +1,3 @@
+export type Tile={x:number;y:number;walkable:boolean;cost:number};export type MapState={id:string;width:number;height:number;tiles:Tile[]};
+export function createMap(id:string,width:number,height:number):MapState{const tiles:Tile[]=[];for(let y=0;y<height;y++)for(let x=0;x<width;x++)tiles.push({x,y,walkable:true,cost:1});return{id,width,height,tiles};}
+export function neighbors(m:MapState,x:number,y:number){return[[1,0],[-1,0],[0,1],[0,-1]].map(([dx,dy])=>m.tiles.find(t=>t.x===x+dx&&t.y===y+dy)).filter((t):t is Tile=>!!t&&t.walkable);}
