@@ -25,3 +25,7 @@ Populate these packs only from the authorized Fallout 1/2 source materials suppl
 - authorized art/audio/animation references
 
 The validator should reject unresolved IDs and malformed cross-references before runtime import.
+
+## Packaging
+
+The repository contains an automated packaging workflow that writes the current project snapshot to `resona-fallout-project.zip` at the project root after content changes.
