@@ -1,0 +1,1 @@
+export type FactionState={id:string;reputation:number;member:boolean;hostile:boolean};export const faction=(id:string):FactionState=>({id,reputation:0,member:false,hostile:false});export function adjust(f:FactionState,delta:number){f.reputation=Math.max(-1000,Math.min(1000,f.reputation+delta));f.hostile=f.reputation<=-100;}
