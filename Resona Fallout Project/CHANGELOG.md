@@ -1,10 +1,10 @@
-# CHANGELOG
+# Changelog
 
-## 2026-09-27 — Initial extraction workspace
-- Created the `Resona Fallout Project/` virtual sub-repository structure.
-- Preserved the original Rezona MHT snapshot.
-- Extracted human-readable Rezona project content.
-- Added explicit project-state tracking.
-- Added Rezona continuation protocol.
-- Added GitHub synchronization contract.
-- Added change-manifest tracking.
+## 2026-09-27 — Engine foundation continuation
+- Added strict TypeScript project configuration.
+- Added typed core data model.
+- Added centralized character formulas and character progression.
+- Added deterministic RNG, events, clock, map, inventory, combat, quests, factions, dialogue and save primitives.
+- Added campaign bootstrap for FO1/FO2.
+- Added GitHub Actions validation workflow.
+- Did not mark untested systems as VERIFIED.
