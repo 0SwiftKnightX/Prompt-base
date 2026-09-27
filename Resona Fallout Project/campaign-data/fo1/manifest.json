@@ -2,6 +2,7 @@
   "campaign": "fo1",
   "title": "Fallout",
   "status": "awaiting_authorized_campaign_source_import",
+  "packVersion": "1.0.1",
   "source_policy": "authorized-source-only",
   "required_collections": ["locations","worldMap","npcs","creatures","items","weapons","armor","ammunition","dialogue","quests","companions","factions","encounters","merchants","events","endings","assets"],
   "records": {
