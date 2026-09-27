@@ -1,0 +1,13 @@
+{
+  "campaign": "fo2",
+  "title": "Fallout 2",
+  "status": "awaiting_authorized_campaign_source_import",
+  "source_policy": "authorized-source-only",
+  "required_collections": ["locations","worldMap","npcs","creatures","items","weapons","armor","ammunition","dialogue","quests","companions","factions","encounters","merchants","events","endings","assets"],
+  "records": {
+    "locations": [], "worldMap": [], "npcs": [], "creatures": [], "items": [], "weapons": [],
+    "armor": [], "ammunition": [], "dialogue": [], "quests": [], "companions": [], "factions": [],
+    "encounters": [], "merchants": [], "events": [], "endings": [], "assets": []
+  },
+  "validation": {"require_unique_ids": true, "require_resolved_references": true, "require_source_provenance": true}
+}
