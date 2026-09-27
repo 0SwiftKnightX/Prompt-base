@@ -1,0 +1,11 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*token*
+*secret*
+
+# Rezona/local runtime artifacts
+.cache/
+tmp/
