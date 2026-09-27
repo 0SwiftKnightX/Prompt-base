@@ -1,0 +1,1 @@
+export type Container={id:string;locked:boolean;open:boolean;trapped:boolean;searched:boolean;contents:Record<string,number>};export function search(c:Container){c.searched=true;return{...c.contents};}export function disarm(c:Container){c.trapped=false;return true;}export function trap(c:Container){c.trapped=true;}
