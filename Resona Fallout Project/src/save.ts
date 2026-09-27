@@ -1,0 +1,1 @@
+export function save<T>(state:T){return JSON.stringify(state);}export function load<T>(raw:string):T{try{return JSON.parse(raw) as T;}catch{throw new Error("Corrupt save data");}}
