@@ -1,0 +1,1 @@
+export class GameClock{constructor(public minutes=0){}advance(minutes:number){this.minutes=Math.max(0,this.minutes+minutes);}get day(){return Math.floor(this.minutes/1440)+1;}get hour(){return Math.floor(this.minutes%1440/60);}}
