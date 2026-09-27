@@ -1,0 +1,1 @@
+export type TraitDef={id:string;name:string;description:string;special?:Partial<Record<string,number>>;skillMultiplier?:Partial<Record<string,number>>;tags:string[]};export class TraitDatabase{private defs=new Map<string,TraitDef>();register(d:TraitDef){this.defs.set(d.id,d);}get(id:string){return this.defs.get(id);}all(){return[...this.defs.values()];}}
